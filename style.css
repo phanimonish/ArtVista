@@ -1,0 +1,151 @@
+.body {
+    overflow-x: hidden;
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.navbar-brand {
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 3rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-link:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff;
+}
+
+.hero-text {
+    margin-left: 15%;
+    width: 70%;
+}
+
+.explore-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 8rem;
+}
+
+.explore-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.explore-btn:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+.artists {
+    width: 90%;
+    margin-top: 23%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    margin-left: 1%;
+    margin-top: 2%;
+    text-align: center;
+    height: 30rem;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar-brand {
+    width: 15%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 0.3s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.1);
+}
+
+.art-card-group {
+    width: 90%;
+    margin-left: 6%;
+}
+
+.art-card {
+    margin: 1%;
+}
+
+.div-2 {
+    background-color: rgb(245, 245, 245);
+}
+
+.art-button{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 45%;
+    width: 8rem;
+}
+hr{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.art-image{
+    height: 300px;
+}
+
+.art-new-page{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .art-button{
+        margin-top: 2%;
+        margin-bottom: 1%;
+        margin-left: 32%;
+        width: 8rem;
+    }
+  }
